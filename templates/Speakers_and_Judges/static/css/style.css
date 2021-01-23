@@ -11,7 +11,7 @@ body {
 }
 
 .back-img {
-  position: absolute;
+  position: relative;
   top: 0px;
   z-index: -6;
   left: 0px;
@@ -19,7 +19,7 @@ body {
   height: 100%;
 }
 .header {
-  position: absolute;
+  position: relative;
   height: 15%;
   left: 50%;
   top: 7.78px;
@@ -63,7 +63,7 @@ body {
   outline: none;
 }
 .button2 {
-  position: absolute;
+  position: relative;
   width: 13%;
   height: 40px;
   left: 74.04px;
@@ -329,7 +329,7 @@ body {
 }
 
 .img1 {
-  position: absolute;
+  position: relative;
   left: 0em;
   top: 0em;
   height: 100vh;
@@ -357,14 +357,14 @@ body {
   animation-iteration-count: 1;
 }
 .image {
-  position: absolute;
+  position: relative;
   width: 190px;
   height: 240px;
   border-radius: 2px;
 }
 
 .info-page-img {
-  position: absolute;
+  position: relative;
   display: inline-block;
   width: 192px;
   height: 242px;
@@ -439,7 +439,7 @@ p {
     left: 60%;
   }
   .safari-specific img{
-    position: absolute;
+    position: relative;
     top:70%;
     right:20%;
 
@@ -464,7 +464,7 @@ p {
     margin-top: 39%;
   }
   .safari-specific img{
-    position: absolute;
+    position: relative;
     top:-12%;
     right:;
     bottom:;
@@ -516,7 +516,7 @@ p {
     margin-right: 0%;
   }
   .safari-specific img{
-    position:absolute;
+    position:relative;
 
     left:0.000003%;
   }
@@ -661,20 +661,20 @@ p {
 
 @-moz-document url-prefix() {
   .info-page-img {
-    position: absolute;
+    position: relative;
     top: 195px;
   }
 
   @media ALL and (max-width: 1300px) {
     .info-page-img {
-      position: absolute;
+      position: relative;
       left: 72%;
     }
   }
 
   @media ALL and (max-width: 960px) {
     .info-page-img {
-      position: absolute;
+      position: relative;
       left: 40%;
       top: 20%;
     }
